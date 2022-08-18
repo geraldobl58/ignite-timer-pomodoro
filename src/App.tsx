@@ -1,6 +1,12 @@
+import { ThemeProvider } from "styled-components";
+
+import { defaultTheme } from "./styles/themes/default";
+
 export function App() {
   return (
-    <h1>Vite</h1>
+    <ThemeProvider theme={defaultTheme}>
+      
+    </ThemeProvider>
   )
 }
 
